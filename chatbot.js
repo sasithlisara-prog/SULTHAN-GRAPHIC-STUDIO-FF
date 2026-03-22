@@ -129,7 +129,7 @@
                     case 'about-us':
                         currentState = 'about-us';
                         addBotMessage("Visit us to learn more..", () => {
-                            showActionButton("Visit About Page", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/about");
+                            showActionButton("Visit About Page", "fas fa-external-link-alt", "https://sasithlisara-prog.github.io/SULTHAN-GRAPHIC-STUDIO-FF/");
                         });
                         break;
                     case 'consulting':
@@ -168,17 +168,17 @@
                 switch(option) {
                     case 'know-services':
                         addBotMessage("Visit to learn about our services..", () => {
-                            showActionButton("Visit Services", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/services");
+                            showActionButton("Visit Services", "fas fa-external-link-alt", "https://sasithlisara-prog.github.io/SULTHAN-GRAPHIC-STUDIO-FF/");
                         });
                         break;
                     case 'portfolio':
                         addBotMessage("Visit to view our designs and portfolio..", () => {
-                            showActionButton("View Portfolio", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/portfolio");
+                            showActionButton("View Portfolio", "fas fa-external-link-alt", "https://sasithlisara-prog.github.io/SULTHAN-GRAPHIC-STUDIO-FF/#portfolio");
                         });
                         break;
                     case 'buy-services':
                         addBotMessage("Visit us to learn about our services and prices or to purchase.", () => {
-                            showActionButton("Order Now", "fas fa-shopping-cart", "https://sites.google.com/view/janithgraphicstudio/shop");
+                            showActionButton("Order Now", "fas fa-shopping-cart", "https://sasithlisara-prog.github.io/SULTHAN-GRAPHIC-STUDIO-FF/#pricing");
                         });
                         break;
                     case 'place-order':
