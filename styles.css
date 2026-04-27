@@ -125,14 +125,14 @@ header {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--primary-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(5, 8, 226);
     margin: 2rem 0;
     transition: var(--transition);
 }
 
 .profile-img:hover {
     transform: scale(1.05);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 40px rgba(233, 6, 6);
 }
 
 .welcome-text {
@@ -247,13 +247,13 @@ nav a:hover::after {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(3, 7, 216);
     transition: var(--transition);
 }
 
 .theme-toggle:hover {
     transform: scale(1.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(236, 8, 8);
 }
 
 /* Sections */
@@ -296,12 +296,12 @@ section {
     overflow: hidden;
     transition: var(--transition);
     position: relative;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(9, 5, 219);
 }
 
 .portfolio-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 30px rgba(231, 5, 5);
 }
 
 .portfolio-card::before {
@@ -358,7 +358,7 @@ section {
 
 .portfolio-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(238, 5, 5);
 }
 
 .portfolio-btn::after {
@@ -392,7 +392,7 @@ section {
     margin-bottom: 1rem;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(5, 9, 252);
 }
 
 .pricing-header {
@@ -455,7 +455,7 @@ section {
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--primary-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(2, 30, 185);
 }
 
 .about-content {
@@ -536,12 +536,12 @@ section {
     font-weight: 600;
     text-decoration: none;
     transition: var(--transition);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(9, 5, 231);
 }
 
 .cv-btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 25px rgba(238, 4, 4);
 }
 
 .social-links {
@@ -562,13 +562,13 @@ section {
     justify-content: center;
     font-size: 1.5rem;
     transition: var(--transition);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(9, 5, 231);
 }
 
 .social-link:hover {
     background-color: var(--accent-color);
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(238, 4, 4);
 }
 
 .footer {
@@ -593,7 +593,7 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(9, 5, 231);
     z-index: 999;
     transition: var(--transition);
     animation: pulse 2s infinite;
@@ -601,7 +601,7 @@ section {
 
 .whatsapp-btn:hover {
     transform: scale(1.1);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 25px rgba(235, 5, 5);
 }
 
 @keyframes pulse {
